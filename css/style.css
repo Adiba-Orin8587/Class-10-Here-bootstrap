@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 17px;
+}
+
+
+
+.navbar-nav li:last-child {
+    background-color: #7ce9e6;
+    border-radius: 30px;
+    border: 1px solid #7ce9e6;
+    transition: background-color .5s;
+}
+
+
+.navbar-nav li:last-child:hover {
+    background-color: #00afa94d;
+
+
+
+}
+
+nav {
+    box-shadow: rgba(100, 100, 111, 0.325) 0px 7px 30px 0px;
+}
+
+.active {
+    color: #7ce9e6 !important;
+}
+
+.banner {
+    background-image: url(../images/ima.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3f454d39;
+    background-blend-mode: multiply;
+
+}
+
+.bg-primari {
+    background-color: #7ce9e6;
+
+
+
+}
+
+.text-primari {
+    color: #7ce9e6;
+
+
+}
+
+.bg-secondari {
+    background-color: #3F454D;
+}
+
+.text-secondari {
+    color: #3F454D;
+}
+
+.txt-pri {
+    color: rgba(255, 255, 255, 0.853);
+}
+
+.text-p {
+    color: rgba(246, 249, 251, 0.569);
+}
+
+.txt-secondari {
+    color: #666a6e;
+}
+
+.tx-secondari {
+    color: rgba(249, 251, 253, 0.834);
+}
+
+.brand-logo {
+    background-color: #3f454d2a;
+}
+
+.section {
+    overflow: hidden;
+}
+
+button:hover {
+    color: azure;
+    background-color: #00afa9a1;
+
+    transition: all 0.5s ease-in;
+    letter-spacing: 1px;
+}
+
+.blog {
+    background-color: rgb(219, 222, 222);
+}
+
+.fa-arrow-circle-right {
+    color: #000000;
+}
+
+.card-body.p-2 {
+    padding: 0;
+}
+
+.col {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.bg-primar {
+    background: #1B222C;
+}
+
+.gradient-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 27px;
+    background: linear-gradient(rgb(50, 244, 79), rgb(4, 77, 90));
+    border-radius: 10%;
+}
+
+.content-div {
+    width: 106px;
+    height: 25px;
+    background: #1B222C;
+    border-radius: 10%;
+}
+
+.col-1 {
+    width: 280.4%;
+    /* text-align: left; */
+    padding: 1px;
+}
+
+.bg-prime {
+    background: #3F454D;
+}
+
+/* footer */
+footer {
+    background: #3F454D;
+}
+
+footer h3 {
+    margin-top: 10%;
+    font-size: 35px;
+    color: rgb(238, 242, 246);
+
+}
+
+.footer-items {
+    line-height: 45px;
+
+}
+
+.footer-items li a {
+    text-decoration: none;
+    color: #f7f7f789;
+    text-transform: none;
+
+}
+
+.footer-items li {
+    list-style: none;
+
+}
+
+.footer-items li a:hover {
+    color: #7ce9e6;
+}
